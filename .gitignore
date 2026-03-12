@@ -1,0 +1,78 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Node / frontend tooling
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# Environment / secrets
+.env
+.env.*
+*.local
+*.secret
+secrets.*
+
+# Logs
+*.log
+logs/
+
+# Data and model artifacts
+data/
+datasets/
+artifacts/
+outputs/
+runs/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.npz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
